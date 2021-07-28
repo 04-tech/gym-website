@@ -1,0 +1,33 @@
+input{
+    height:40px;
+    text-align: center;
+    margin-bottom: 12px;
+    width:260px;
+    border:2px solid purple;
+}
+.form{
+    background-image: radial-gradient(rgb(209, 142, 142),rgb(122, 122, 199),rgb(119, 194, 119));
+    color:darkred;
+    background-color: transparent;
+    width:600px;
+    height:400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+     margin: 50px;
+margin-left:400px;  
+animation-name: form;
+animation-duration: 3s;
+animation-iteration-count: infinite;  
+}
+body{
+    background-image: url(gym2.jpg);
+    background-size: cover;
+}
+a{
+    text-decoration: none;
+}
+.button{
+    display: flex;
+}
